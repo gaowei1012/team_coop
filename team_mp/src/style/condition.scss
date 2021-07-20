@@ -1,0 +1,21 @@
+.filter-condition {
+  background-color: rgb(240, 244, 254);
+  padding: 6px 14px;
+  border-radius: 20px;
+  .text {
+    display: inline-block;
+    color: #3370ff;
+    font-size: 14px;
+    margin-right: 2px;
+  }
+  .label {
+    display: inline-block;
+    color: #3370ff;
+    font-size: 14px;
+    margin-right: 6px;
+  }
+  .icon {
+    cursor: pointer;
+    color: #3370ff;
+  }
+}

@@ -1,0 +1,14 @@
+.ant-layout-sider {
+  background: #35385d !important;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background: #35385d !important;
+}
+
+// 修改选择标签的颜色
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #545771 !important;
+}

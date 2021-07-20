@@ -1,0 +1,106 @@
+.user-center-container {
+  margin: 10px;
+  .avatar-box {
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    background-color: #eee;
+    border-radius: 3px;
+    display: flex;
+    .desc-box {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      .desc {
+        margin-left: 4px;
+        margin-top: 2px;
+      }
+      .tag {
+        margin-left: 4px;
+        margin-top: 4px;
+      }
+    }
+  }
+  .back {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    :nth-child(1) {
+      display: inline-block;
+      margin-right: 4px;
+    }
+  }
+  .user-center-list {
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f9f9f9;
+    height: 100%;
+    // 账号管理
+    .account_number_a {
+      margin-top: 10px;
+      margin-left: 28px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba($color: #f0f0f0, $alpha: 1);
+    }
+    .modify_password {
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      padding: 0 10px 0 10px;
+      justify-content: space-between;
+    }
+    // 个人资料
+    .personal_information {
+      margin-left: 20px;
+    }
+    & .list {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      // background-color: #fff;
+      border-bottom: 1px solid #f0f0f0;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      padding-left: 10px;
+    }
+    & .name {
+      display: inline-block;
+      width: 90px;
+    }
+    & .value {
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+}
+
+// 个人资料
+.profile-item {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  .title {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .p_text {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 14px;
+  }
+}
+
+// // 未备份
+// .not_backed_up {
+//     border-color: #87e8de;
+//     color: #13c2c2;
+//     background: #e6fffb
+// }
+
+// // 已备份
+// .backed_up {
+//     background: #1890ff;
+//     border-color: #1890ff;
+//     color: #fff;
+// }

@@ -1,0 +1,89 @@
+.data-container {
+  background-color: #fff;
+  & .content {
+    margin-top: 10px;
+    background-color: #eff0f1;
+    padding: 10px;
+  }
+  & .content .h-row-title {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #373c43;
+    margin-right: 6px;
+  }
+
+  & .content .empty-box {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .empty {
+      display: inline-block;
+      font-size: 14px;
+      color: #646a73;
+    }
+  }
+
+  // work order
+  .title {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 6px;
+  }
+  .workorder-box {
+    height: 100%;
+    .workorder-content {
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .empty {
+        display: inline-block;
+        font-size: 14px;
+        color: #646a73;
+      }
+    }
+  }
+
+  // customer
+  & .customer-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    .detail {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .btn {
+      width: 100px;
+    }
+  }
+
+  & .customer-detail-box {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .empty {
+      display: inline-block;
+      font-size: 14px;
+      color: #646a73;
+    }
+  }
+}
+
+// 修改 antd 样式
+// 干掉 tabs boder 样式
+.ant-tabs-top > .ant-tabs-nav::before,
+.ant-tabs-bottom > .ant-tabs-nav::before,
+.ant-tabs-top > div > .ant-tabs-nav::before,
+.ant-tabs-bottom > div > .ant-tabs-nav::before {
+  border-bottom: none;
+}

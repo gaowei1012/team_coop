@@ -1,0 +1,189 @@
+.home-container {
+  .home-header {
+    height: 50px;
+    list-style: 50px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    .right {
+      display: flex;
+      align-items: center;
+      .info {
+        margin-right: 18px;
+      }
+    }
+  }
+  .home-emtry-container {
+    height: 120px;
+    width: 100%;
+    // background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    .home-title {
+      display: inline-block;
+      font-size: 28px;
+      color: #101010;
+      font-weight: 700;
+    }
+  }
+  .home-tabs-container {
+    // padding-left: 20px;
+    background-color: white;
+    .home-content-box {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      min-height: 520px;
+      height: 100%;
+      margin: 0 auto;
+      background-color: #f0f2f5;
+      .tab-content-box {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    .home-application-box {
+      width: 93%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      .home-add-application {
+        background-color: #fff;
+        width: 23%;
+        height: 180px;
+        border-radius: 2px;
+        margin-top: 16px;
+        margin-left: 20px;
+        border: 1px dashed #ccc;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .add-icon {
+          width: 20px;
+          height: 20px;
+        }
+        .name {
+          display: inline-block;
+        }
+      }
+      .home-add-application:hover {
+        border: 1px dashed #1890ff;
+        .add-icon {
+          width: 20px;
+          height: 20px;
+        }
+        .name {
+          display: inline-block;
+          color: #1890ff;
+        }
+      }
+
+      .application-desc {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+    .default-configuration-container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 100%;
+      min-height: 520px;
+      height: 100%;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+    }
+  }
+}
+
+.ant-tabs-tab {
+  margin-left: 20px;
+}
+
+/// modal
+.application-modal-title {
+  display: inline-block;
+  font-size: 20px;
+  color: #101010;
+}
+
+.application-modal-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  .title {
+    display: inline-block;
+    width: 100px;
+    color: #101010;
+    font-size: 16px;
+  }
+  .input {
+    width: 70%;
+  }
+  .icon {
+    margin-left: 10px;
+  }
+}
+
+/// checkbox type
+.application_type_container {
+  margin: 5px 20px;
+  min-height: 30px;
+  padding: 24px 40px;
+  background: #fff;
+  .application_type_list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    .btn {
+      height: 25px;
+    }
+    .title {
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 700;
+      color: #000;
+      margin-right: 10px;
+    }
+    .application_type_item {
+      cursor: pointer;
+      width: 5%;
+      text-align: center;
+      margin-left: 20px;
+      padding: 3px 0 3px 0;
+      border-radius: 5px;
+      transition: all 0.5s;
+      background-color: #fff;
+      color: #000;
+    }
+    .active {
+      width: 5%;
+      margin-left: 20px;
+      padding: 3px 0 3px 0;
+      border-radius: 5px;
+      transition: all 0.5s;
+      transition: all 0.5s;
+      background-color: #1890ff;
+      color: #fff;
+    }
+  }
+}
+
+/// 修改 antd css
+.ant-tabs-nav {
+  margin: 0 0 0 20px;
+}

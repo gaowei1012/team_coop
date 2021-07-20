@@ -1,0 +1,26 @@
+.customer-container {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  & .tips {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 14px;
+  }
+  & .tips .wapr {
+    display: inline-block;
+    font-size: 14px;
+    & .work-time {
+      display: inline-block;
+      color: blue;
+      cursor: pointer;
+    }
+  }
+}
+
+// 修改 antd 默认样式
+.ant-modal-content {
+  background-color: rgba(253, 253, 253, 1);
+  border-radius: 10px;
+}

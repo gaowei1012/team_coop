@@ -1,0 +1,171 @@
+.guide-container {
+  // padding: 20px;
+  .guide-header {
+    height: 22px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    cursor: pointer;
+    .back {
+      width: 100px;
+      background-color: fff;
+      display: flex;
+      align-items: center;
+      .go-back {
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+  }
+  .guide-btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .g_tutton {
+      width: 100px;
+    }
+  }
+  // basic information
+  .basic-information {
+    height: 70vh;
+    // background-color: rebeccapurple;
+    width: 88%;
+    margin: 0 auto;
+    .form-box {
+      width: 100%;
+      padding: 20px 10px;
+      .guide-btn {
+        margin-top: 100px;
+      }
+    }
+  }
+  // data mp
+  .app-data-structures {
+    height: 70vh;
+    // background-color: yellowgreen;
+    width: 88%;
+    margin: 0 auto;
+    .application-modal-item {
+      display: flex;
+      align-items: center;
+      .wapper {
+        display: flex;
+        align-items: center;
+        width: 150px;
+        .l {
+          display: inline-block;
+          margin-right: 4px;
+          font-size: 14px;
+          font-family: SimSun, sans-serif;
+          color: #ff4d4f;
+          margin-top: 4px;
+        }
+        .title {
+          width: 100%;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.85);
+        }
+      }
+      .input {
+        width: 100%;
+      }
+    }
+    .app_select-structure {
+      margin: 40px 0 20px 0;
+      .config_title {
+        display: inline-block;
+        font-size: 16px;
+      }
+    }
+    .select_group {
+      margin-left: 10px;
+    }
+  }
+  // unchainstructures
+  // business-setting
+  .business-setting {
+    height: 70vh;
+    background-color: bisque;
+    width: 96%;
+    margin: 0 auto;
+  }
+  // block-chian-service
+  .block-chian-service {
+    height: 70vh;
+    background-color: hotpink;
+    width: 96%;
+    margin: 0 auto;
+  }
+  // thrid-party
+  .thrid-party {
+    height: 70vh;
+    background-color: darkblue;
+    width: 96%;
+    margin: 0 auto;
+  }
+  // business-container
+  .business-container {
+    padding: 10px;
+    .business-list {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      // justify-content: center;
+      .card-process-content-list {
+      }
+      & .card-process-content {
+        color: rgba(0, 0, 0, 0.45);
+      }
+      & .card-process-content-fotter {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .update-time {
+          flex: 1 1;
+          color: rgba(0, 0, 0, 0.45);
+          font-size: 12px;
+        }
+        .group-name {
+          color: rgba(0, 0, 0, 0.45);
+          font-size: 14px;
+        }
+      }
+      & .card-hover .close {
+        display: none;
+        position: absolute;
+        top: -12px;
+        right: -8px;
+        width: 15px;
+        cursor: pointer;
+      }
+      & .card-hover:hover {
+        .close-hover {
+          display: inline-block;
+          width: 26px;
+          height: 26px;
+          border-radius: 50%;
+          background-color: rgb(255, 255, 255);
+          // opacity: .8;
+          color: rgba(0, 0, 0, 0.65);
+          cursor: pointer;
+          box-shadow: 1px 1px 1px rgb(245, 245, 245);
+        }
+      }
+    }
+  }
+  /* 实际业务流程 - 流程详情 */
+  .business-detail-container {
+    .info-box {
+      display: flex;
+      align-items: center;
+    }
+    & .username {
+      margin-left: 10px;
+    }
+  }
+  .emphasis {
+    color: #ff4d4f;
+    font-weight: bolder;
+  }
+}

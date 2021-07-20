@@ -1,0 +1,55 @@
+.application-container {
+  margin: 10px;
+  .application-header-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    .title {
+      display: inline-block;
+      color: #100110;
+      font-size: 20px;
+    }
+    .button {
+      position: relative;
+      top: 60px;
+    }
+  }
+  .application-table {
+    margin-top: 20px;
+  }
+}
+
+/// modal
+.application-modal-title {
+  display: inline-block;
+  font-size: 20px;
+  color: #101010;
+}
+
+.application-modal-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding-left: 20px;
+  .title {
+    display: inline-block;
+    width: 136px;
+    color: #101010;
+    font-size: 16px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  .input {
+    width: 80%;
+  }
+}
+
+/// table style
+.application-operating-container {
+  .edit {
+    margin-right: 20px;
+  }
+}

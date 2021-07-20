@@ -1,0 +1,19 @@
+.data-downlink-container {
+  margin: 10px;
+
+  .chain-select-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .title {
+      display: inline-block;
+      margin-right: 15px;
+    }
+    .select {
+      width: 90%;
+    }
+  }
+}
+
+.ant-modal-body {
+}

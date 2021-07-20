@@ -1,0 +1,100 @@
+.chain-container {
+  margin: 10px;
+}
+
+.text {
+  display: inline-block;
+  color: red;
+}
+
+.alternativaform-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+
+  .alternativaform-header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    .title {
+      display: inline-block;
+      font-size: 22px;
+      color: #101010;
+    }
+  }
+
+  .alternativaform-table {
+    background-color: white;
+    margin-top: 20px;
+  }
+}
+
+.alternativaform-modal-item {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  .alternativaform-box {
+    display: flex;
+    align-items: center;
+    .item {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      .item-input {
+        width: 100%;
+      }
+      .item-title {
+        display: inline-block;
+        width: 120px;
+        font-size: 16px;
+      }
+    }
+
+    .add-icon {
+      width: 28px;
+      height: 28px;
+      cursor: pointer;
+      margin-left: 6px;
+    }
+  }
+  .input {
+    width: 70%;
+  }
+  .title {
+    display: inline-block;
+    width: 120px;
+    font-size: 16px;
+  }
+  .add-icon {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    margin-left: 6px;
+  }
+}
+
+.application-modal-item {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+  .title {
+    display: inline-block;
+    width: 18%;
+    color: #101010;
+    font-size: 16px;
+    text-align: left;
+  }
+  .input {
+    width: 80%;
+  }
+}
+
+.alternativaform-operating-container {
+  .edit {
+    margin-right: 20px;
+  }
+  .poppver-content-box {
+    margin-top: 10px;
+  }
+}

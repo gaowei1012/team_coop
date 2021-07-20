@@ -1,0 +1,83 @@
+.dchain-container {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 20px;
+  height: 100%;
+  .k {
+    margin-top: 60px;
+  }
+  .dchain-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .name {
+      display: block;
+      float: none;
+      text-align: left;
+      font-size: 22px;
+      font-weight: normal;
+    }
+  }
+  .api-box {
+    .list {
+      display: flex;
+      align-items: center;
+      margin: 0 10px 10px 10px;
+      .line {
+        display: block;
+        width: 4px;
+        height: 4px;
+        margin-right: 6px;
+        border-radius: 2px;
+        background-color: rebeccapurple;
+      }
+      strong {
+        font-weight: bold;
+        margin-right: 20px;
+        font-size: 16px;
+      }
+      .desc {
+        border-radius: 2px;
+        color: #e96900;
+        display: block;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .basic-information {
+    margin-bottom: 20px;
+  }
+
+  .path-container {
+    margin-top: 30px;
+    .path-table {
+      margin-top: 20px;
+    }
+  }
+
+  .response-container {
+    margin: 30px 0;
+  }
+
+  .response-content {
+    padding-top: 20px;
+    overflow: hidden;
+    .title {
+      display: inline-block;
+      font-size: 14px;
+      margin: 0 0 10px 6px;
+    }
+  }
+
+  .maodain {
+    display: inline-block;
+    width: 4px;
+    height: 13px;
+    top: 6px;
+    left: 0;
+    margin-right: 10px;
+    background: #378eef;
+  }
+}

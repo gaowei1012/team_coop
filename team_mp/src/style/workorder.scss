@@ -1,0 +1,29 @@
+.workorder-container {
+  .rendertab-box {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    & .filter {
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    & .filter .filter-icon {
+      height: 80%;
+    }
+    & .filter .filter-text {
+      display: inline-block;
+      margin-left: 6px;
+    }
+  }
+}
+
+// 修改 antd 样式
+.ant-modal-content {
+  background-color: rgba(253, 253, 253, 1);
+  border-radius: 10px;
+}
+
+.ant-tabs > .ant-tabs-nav,
+.ant-tabs > div > .ant-tabs-nav {
+  padding-left: 10px;
+}

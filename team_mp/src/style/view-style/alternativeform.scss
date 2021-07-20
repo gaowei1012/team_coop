@@ -1,0 +1,51 @@
+.alternative-container {
+  margin: 10px;
+  .alternative-header-container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    .title {
+      display: inline-block;
+      color: #100110;
+      font-size: 20px;
+    }
+    .button {
+      position: relative;
+      top: 60px;
+    }
+  }
+  .alternative-table {
+    margin-top: 120px;
+  }
+}
+
+/// modal
+.alternative-modal-title {
+  display: inline-block;
+  font-size: 20px;
+  color: #101010;
+}
+.alternative-modal-item {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  .title {
+    display: inline-block;
+    width: 100px;
+    color: #101010;
+    font-size: 16px;
+  }
+  .input {
+    width: 80%;
+  }
+}
+
+/// table style
+.alternative-operating-container {
+  .edit {
+    margin-right: 20px;
+  }
+}

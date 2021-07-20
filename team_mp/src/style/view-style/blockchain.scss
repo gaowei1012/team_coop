@@ -1,0 +1,41 @@
+.blockchain-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.blockchain-modal-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  .title {
+    display: inline-block;
+    width: 140px;
+  }
+  .input {
+    width: 90%;
+  }
+  .test-title {
+    display: inline-block;
+    font-size: 16px;
+    color: #101010;
+    .text {
+      display: inline-block;
+      margin-left: 10px;
+      .item {
+        margin-right: 10px;
+      }
+    }
+    .Acolor {
+      display: inline-block;
+      font-size: 16px;
+      color: red;
+      margin-left: 10px;
+    }
+    .Bcolor {
+      display: inline-block;
+      font-size: 16px;
+      color: rgb(0, 255, 55);
+      margin-left: 10px;
+    }
+  }
+}

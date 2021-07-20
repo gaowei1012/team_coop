@@ -1,0 +1,28 @@
+.classification-box {
+  display: flex;
+  flex-direction: column;
+  & .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .list-wapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .line {
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: rgb(37, 33, 33);
+      }
+      .name {
+        display: inline-block;
+        color: black;
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.delete-unit {
+  margin-left: -10px;
+  .unit-title {
+    display: flex;
+    align-items: center;
+  }
+  .unit-title .l {
+    display: inline-block;
+    width: 4px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #000;
+    margin-right: 10px;
+  }
+  .unit-title .title {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .unit-title {
+    display: flex;
+  }
+}
